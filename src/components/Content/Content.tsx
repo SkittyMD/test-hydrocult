@@ -9,13 +9,15 @@ import ContentHydration from './ContentHydration/ContentHydration'
 const Content: FC = () => {
     return (
         <div className='Content'>
-            <ContentHeader />
-            <main className='Content__main'>
-                <ContentWeather />
-                <ContentIntake />
-                <ContentChart />
-                <ContentHydration />
-            </main >
+            <div className='container'>
+                <ContentHeader />
+                <main className='Content__main'>
+                    <ContentWeather />
+                    <ContentIntake />
+                    <ContentChart />
+                    <ContentHydration />
+                </main >
+            </div>
         </div >
     )
 };

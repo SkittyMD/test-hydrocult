@@ -1,0 +1,57 @@
+.CocktailSidebar {
+    padding-top: 58px;
+    padding: 32px;
+    width: 332px;
+    justify-content: center;
+}
+
+.CocktailSidebar__date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.CocktailSidebar__water__bg {
+    background-image: url('../../assets/water_bg.png');
+    width: 260px;
+    height: 214px;
+    position: relative;
+    margin-top: 130px;
+    margin-bottom: 32px;
+}
+
+.CocktailSidebar__water__bottle {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.CocktailSidebar__water__txt {
+    font-size: 20px;
+    width: 90px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 53px;
+    right: 20px;
+}
+
+.CocktailSidebar__btn {
+    border: none;
+    background: none;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3629B7;
+    cursor: pointer;
+}
+
+.CocktailSidebar__mark {
+    display: inline-block;
+    width: 14px;
+    height: 7px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    background-image: url('../../assets/mark_blue.svg');
+}

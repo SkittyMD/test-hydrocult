@@ -33,6 +33,7 @@
     font-size: 18px;
     line-height: 28px;
     color: #7B81A6;
+    cursor: pointer;
 }
 
 .ContentHydration__header__mark {

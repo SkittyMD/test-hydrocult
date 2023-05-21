@@ -8,8 +8,8 @@ import settings from '../../assets/settings.svg'
 import dots from '../../assets/dots.svg'
 import user from '../../assets/user.png'
 import MenuSidebarItem from './MenuSidebarItem/MenuSidebarItem';
-import './MenuSidebar.css'
 import IMenuSidebarItemProps from './MenuSidebarItem/IMenuSidebarItemProps'
+import './MenuSidebar.css'
 
 const MenuSidebar: FC = () => {
     const dataMenuSidebarItem: IMenuSidebarItemProps[] = [
@@ -63,7 +63,7 @@ const MenuSidebar: FC = () => {
                     </p>
                 </div>
                 <button className='MenuSidebar__user__btn'>
-                    <img src={dots} alt="" />
+                    <img src={dots} alt="dots" />
                 </button>
             </div>
         </div>
