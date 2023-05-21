@@ -1,0 +1,19 @@
+.ContentIntakeItem {
+    width: 244px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.ContentIntakeItem__title {
+    margin-bottom: 4px;
+}
+
+.ContentIntakeItem__text {
+    font-weight: 700;
+    font-size: 18.3214px;
+    line-height: 27px;
+    font-style: normal;
+}

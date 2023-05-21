@@ -1,0 +1,12 @@
+.ContentWeather {
+    background: #F7F9FD;
+    border-radius: 12px;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContentWeather__second--text {
+    color: #8E8F8F;
+}

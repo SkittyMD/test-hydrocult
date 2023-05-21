@@ -1,0 +1,13 @@
+.ContentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.ContentHeader__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #3629B7;
+}

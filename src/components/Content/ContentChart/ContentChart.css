@@ -1,0 +1,67 @@
+.ContentChart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ContentChart__img {
+    width: 100%;
+}
+
+.ContentChart__second--text {
+    font-size: 12px;
+    color: #494949;
+}
+
+.ContentChart__main--text {
+    padding-top: 8px;
+    font-size: 32px;
+    line-height: 28px;
+    color: #3629B7;
+}
+
+.ContentChart__glass {
+    display: flex;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    gap: 28px;
+    align-items: center;
+}
+
+.chart__glass {
+    position: relative;
+}
+
+.chart__glass::before {
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: blue;
+    border-radius: 50%;
+    display: block;
+}
+
+.glass__1::before {
+    background: #3629B7;
+}
+
+.glass__2::before {
+    background-color: #FBB8FF;
+}
+
+.glass__3::before {
+    background-color: #FF4267;
+}
+
+.ContentChart__time {
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #8E8F8F;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.ContentHydrationItem {
+    padding: 25px;
+    border-radius: 16px;
+    width: 223px;
+    height: 173px;
+}
+
+.ContentHydrationItem__img__block {
+    width: 33px;
+    height: 33px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ContentHydrationItem__img {
+    position: absolute;
+    top: 7px;
+    left: 3px;
+}
+
+.ContentHydrationItem__title {
+    font-weight: 500;
+    line-height: 24px;
+    color: #494949;
+    padding: 5px 0;
+}
+
+.ContentHydrationItem__subtitle {
+    font-size: 13px;
+    line-height: 20px;
+    color: #7B81A6;
+}

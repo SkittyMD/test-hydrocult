@@ -1,0 +1,12 @@
+.Content {
+    padding: 40px 40px 0;
+    width: 860px;
+    border-left: 1px #EFECEC solid;
+    border-right: 1px #EFECEC solid;
+}
+
+.Content__main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

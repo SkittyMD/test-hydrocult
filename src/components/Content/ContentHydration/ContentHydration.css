@@ -1,0 +1,51 @@
+.ContentHydration {
+    background: #FFFFFF;
+    border: 1px solid #F2EEEE;
+    box-shadow: 30px 30.24px 20px rgba(0, 0, 0, 0.02), 0px 12.16px 8.576px rgba(0, 0, 0, 0.013152), 0px 2.72px 3.712px rgba(0, 0, 0, 0.008304);
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.ContentHydration__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.ContentHydration__header__title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #494949;
+    font-weight: 500;
+}
+
+.ContentHydration__header__subtitle {
+    font-size: 13px;
+    line-height: 20px;
+    color: #8E8F8F;
+    padding-top: 2px;
+}
+
+.ContentHydration__header__btn {
+    border: none;
+    background: none;
+    font-size: 18px;
+    line-height: 28px;
+    color: #7B81A6;
+}
+
+.ContentHydration__header__mark {
+    display: inline-block;
+    width: 14px;
+    height: 7px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    background-image: url('../../../assets/mark_purple.svg');
+}
+
+.ContentHydration__main {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
