@@ -1,30 +1,30 @@
 import { FC } from 'react'
 import bottle from '../../assets/bottle.png'
-import './CocktailSidebar.css'
+import './SecondSidebar.css'
 import calendar from '../../assets/calendar_sidebar.svg'
 import intake_goal from '../../assets/intake_goal.png'
-import CocktailSidebarDrinkLog from './CocktailSidebarDrinkLog/CocktailSidebarDrinkLog'
+import SecondSidebarDrinkLog from './SecondSidebarDrinkLog/SecondSidebarDrinkLog'
 
-const CocktailSidebar: FC = () => {
+const SecondSidebar: FC = () => {
     return (
-        <div className='CocktailSidebar'>
-            <div className='CocktailSidebar__date'>
+        <div className='SecondSidebar'>
+            <div className='SecondSidebar__date'>
                 <img src={calendar} alt="calendar" />
                 <button
-                    className='CocktailSidebar__btn'
+                    className='SecondSidebar__btn'
                 >
                     Tue, 24 Nov 2021
-                    <span className='CocktailSidebar__mark'></span>
+                    <span className='SecondSidebar__mark'></span>
                 </button>
             </div>
 
-            <div className='CocktailSidebar__water__bg'>
+            <div className='SecondSidebar__water__bg'>
                 <img
-                    className='CocktailSidebar__water__bottle'
+                    className='SecondSidebar__water__bottle'
                     src={bottle}
                     alt="bottle"
                 />
-                <p className='CocktailSidebar__water__txt'>
+                <p className='SecondSidebar__water__txt'>
                     Stay
                     Hydrated
                     and beat
@@ -34,9 +34,9 @@ const CocktailSidebar: FC = () => {
 
             <img src={intake_goal} alt="intake_goal" />
 
-            <CocktailSidebarDrinkLog />
+            <SecondSidebarDrinkLog />
         </div>
     )
 };
 
-export default CocktailSidebar
+export default SecondSidebar

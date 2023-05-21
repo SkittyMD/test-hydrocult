@@ -1,4 +1,4 @@
-.CocktailSidebarDrinkLogItem {
+.SecondSidebarDrinkLogItem {
     width: 212px;
     height: 40px;
     padding: 12px 16px;
@@ -9,14 +9,14 @@
     justify-content: space-between;
 }
 
-.CocktailSidebarDrinkLogItem__time {
+.SecondSidebarDrinkLogItem__time {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #3546B1;
 }
 
-.CocktailSidebarDrinkLogItem__volume {
+.SecondSidebarDrinkLogItem__volume {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;

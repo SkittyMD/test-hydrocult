@@ -1,4 +1,4 @@
-.CocktailSidebarDrinkLog {
+.SecondSidebarDrinkLog {
     margin-top: 20px;
     padding: 24px;
     background: #F7F9FD;
@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.CocktailSidebarDrinkLog__header {
+.SecondSidebarDrinkLog__header {
     font-size: 18px;
     line-height: 27px;
     color: #3629B7;
@@ -17,12 +17,12 @@
     margin-bottom: 12px;
 }
 
-.CocktailSidebarDrinkLog__header__dots {
+.SecondSidebarDrinkLog__header__dots {
     transition: 0.3s;
     cursor: pointer;
 }
 
-.CocktailSidebarDrinkLog__header__dots:hover {
+.SecondSidebarDrinkLog__header__dots:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }

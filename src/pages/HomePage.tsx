@@ -1,8 +1,8 @@
 import { FC } from 'react'
 import MenuSidebar from '../components/MenuSidebar/MenuSidebar';
 import Content from '../components/Content/Content';
-import CocktailSidebar from '../components/CocktailSidebar/CocktailSidebar';
 import './HomePage.css'
+import SecondSidebar from '../components/SecondSidebar/SecondSidebar';
 
 const HomePage: FC = () => {
     return (
@@ -11,7 +11,7 @@ const HomePage: FC = () => {
         >
             <MenuSidebar />
             <Content />
-            <CocktailSidebar />
+            <SecondSidebar />
         </div>
     )
 };
