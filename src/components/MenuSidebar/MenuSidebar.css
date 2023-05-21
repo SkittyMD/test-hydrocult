@@ -1,0 +1,59 @@
+.MenuSidebar {
+    max-width: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 54px;
+    height: 100vh;
+}
+
+.MenuSidebar__navbar {
+    margin-bottom: 250px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.MenuSidebar__navbar__title {
+    color: #3629B7;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.MenuSidebar__user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.MenuSidebar__user__img {
+    width: 36px;
+    height: 36px;
+}
+
+.MenuSidebar__user__text {
+    padding: 0 10px;
+    color: #494949;
+}
+
+.MenuSidebar__user__name {
+    line-height: 24px;
+}
+
+.MenuSidebar__user__email {
+    font-size: 12px;
+}
+
+.MenuSidebar__user__btn {
+    border: none;
+    background: none;
+    align-self: flex-start;
+    transition: 0.3s;
+}
+
+.MenuSidebar__user__btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
